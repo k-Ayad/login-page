@@ -1,0 +1,49 @@
+:root
+{
+    --back-color : #24353f ;
+    --text-color : #17a2b8;
+}
+
+.body-back-color
+{
+    background-color: var(--back-color);
+}
+
+.text-color
+{
+    color: var(--text-color);
+}
+
+h1
+{
+    font-weight: 400;
+}
+
+.box-shadow
+{
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-control:focus {
+    background-color: var(--back-color);
+} 
+
+.form-control
+{
+    background-color: var(--back-color);
+    font-weight: 600;
+}
+
+.login-btn
+{
+    border: var(--text-color) 1px solid;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.login-btn:hover
+{
+    background-color: var(--text-color);
+    color: white;
+    
+}
